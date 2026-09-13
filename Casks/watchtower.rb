@@ -20,9 +20,15 @@ cask "watchtower" do
 
   app "Watchtower.app"
 
+  # The app is not notarized, so Gatekeeper would otherwise refuse to open it.
+  postflight_steps do
+    run "/usr/bin/xattr", args: ["-dr", "com.apple.quarantine", "{{appdir}}/Watchtower.app"]
+  end
+
   zap trash: [
     "~/Library/Application Support/fr.nytuo.watchtower",
     "~/Library/Caches/fr.nytuo.watchtower",
+    "~/Library/HTTPStorages/fr.nytuo.watchtower",
     "~/Library/Preferences/fr.nytuo.watchtower.plist",
     "~/Library/Saved Application State/fr.nytuo.watchtower.savedState",
     "~/Library/WebKit/fr.nytuo.watchtower",
@@ -30,9 +36,10 @@ cask "watchtower" do
 
   caveats do
     <<~EOS
-      Watchtower is not notarized by Apple. On first launch, macOS
-      Gatekeeper will refuse to open it — right-click the app in Finder,
-      choose "Open", then confirm in the dialog that appears.
+      Watchtower is not notarized by Apple. This cask removes the quarantine
+      attribute after install, so Gatekeeper won't prompt. If you ever copy
+      Watchtower.app in from elsewhere (not via brew), you'll need to
+      right-click it in Finder and choose "Open" instead.
     EOS
   end
 end
