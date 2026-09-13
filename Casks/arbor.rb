@@ -1,11 +1,11 @@
 cask "arbor" do
   arch arm: "aarch64", intel: "x64"
 
-  version "0.2.0"
-  sha256 arm:   "ed7a5136082cdfb29f0f98ee911837aeacff3e9be154f6e4245613d2594cc7ba",
-         intel: "501c5458bafea7356cf8f85d500b3226fa0c8eb4e48193db90da19be0b943950"
+  version "0.2.1"
+  sha256 arm:   "816e3fca8eb0dc08fdc6060fde5a9386a084b269b42842263fbf65b9342c1649",
+         intel: "517d072f75177ec995714e0722a84c2c55c5fce6ba8aa9c7123c4120c19c288c"
 
-  url "https://github.com/Nytuo/arbor/releases/download/arbor-v#{version}/Arbor_#{version}_#{arch}.dmg"
+  url "https://github.com/Nytuo/arbor/releases/download/v0.2.1/Arbor_#{version}_#{arch}.dmg"
   name "Arbor"
   desc "Genealogy app for building family trees"
   homepage "https://github.com/Nytuo/arbor"
