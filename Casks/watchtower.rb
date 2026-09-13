@@ -1,11 +1,11 @@
 cask "watchtower" do
   arch arm: "aarch64", intel: "x64"
 
-  version "0.1.0"
-  sha256 arm:   "56027f7599bff2351d622c81762fb65182a7aee9393678d817bffd775b865423",
-         intel: "48c116482737ee720827531e015fa6015be6df4dcedc43e6c153965758bf0a47"
+  version "0.2.0"
+  sha256 arm:   "81eae73461e44d347c115045b06886a468d7f1e4ea4ab25cf111f978f25e77ea",
+         intel: "0d172b0652880980bc1627096b554bac6747ac685c1f78f9f46fe8108fc03b9f"
 
-  url "https://github.com/Nytuo/watchtower/releases/download/v#{version}/Watchtower_#{version}_#{arch}.dmg"
+  url "https://github.com/Nytuo/watchtower/releases/download/v0.2.0/Watchtower_#{version}_#{arch}.dmg"
   name "Watchtower"
   desc "Privacy-first SSH/SFTP/FTP desktop client"
   homepage "https://github.com/Nytuo/watchtower"
