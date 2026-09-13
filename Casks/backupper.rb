@@ -1,11 +1,11 @@
 cask "backupper" do
   arch arm: "aarch64", intel: "x64"
 
-  version "0.2.1"
-  sha256 arm:   "828a69234f96182c861c0d7fd280f341a43cc7ef5e5d1b8d941a9b844ed78522",
-         intel: "1cfa928aa96e696c62a191994a2f7fc0831da73de05accf513f3156fc237de26"
+  version "0.2.2"
+  sha256 arm:   "846a9a712af383e4baf31445b69070b97ac0ae9a6de6c534ce1702d296a850d3",
+         intel: "97e824cc313fbb803c9f9d77750ba3a42bc88dfc347abf46a8cf7f6ad7ea121c"
 
-  url "https://github.com/Nytuo/Backupper/releases/download/backupper-v#{version}/Backupper_#{version}_#{arch}.dmg"
+  url "https://github.com/Nytuo/Backupper/releases/download/v0.2.2/Backupper_#{version}_#{arch}.dmg"
   name "Backupper"
   desc "Secure and simple file backup"
   homepage "https://github.com/Nytuo/Backupper"
