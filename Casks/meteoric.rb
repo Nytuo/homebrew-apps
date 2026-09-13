@@ -1,11 +1,11 @@
 cask "meteoric" do
   arch arm: "aarch64", intel: "x64"
 
-  version "2.1.0"
-  sha256 arm:   "2fa69e9ce54552c098d3a22b1be216bd221e16883b18298a531b4e8d6253c6a7",
-         intel: "66f6f95d53be505edd948bd573c7462e7316bd26c4b552d9369fdc08d384280d"
+  version "2.1.1"
+  sha256 arm:   "4c34dc2e834d3d32d65d74d3d30e5dd139a7b6c0d7cc43b989c1267cb5f4bd40",
+         intel: "682b94ba73c053feac84c22b34826500cfda6c078e1ee92e33ad8cf2e49d5b06"
 
-  url "https://github.com/Nytuo/Meteoric/releases/download/meteoric-v#{version}/Meteoric_#{version}_#{arch}.dmg"
+  url "https://github.com/Nytuo/Meteoric/releases/download/v2.1.1/Meteoric_#{version}_#{arch}.dmg"
   name "Meteoric"
   desc "Video game library manager with a unified interface"
   homepage "https://github.com/Nytuo/Meteoric"
