@@ -1,11 +1,11 @@
 cask "cosmic-comics" do
   arch arm: "aarch64", intel: "x64"
 
-  version "3.0.1"
-  sha256 arm:   "1a31e3c9f32b7f56ee24f126180e8c49f99967d084665637eb00c21f2ce102cd",
-         intel: "099e3d6914fe2b2d57d1dc76af7a8c66caf7727aa0855922ebe3c18687a3ca1c"
+  version "3.1.0"
+  sha256 arm:   "b6f5cb1660f1ca3a1732fb583ecb2de19cd4e19005ae9e79a761fc04aabe630f",
+         intel: "ca1024b2b092a54f74a7d8cccf2266077479bbd6a19498e1e14df47277c71208"
 
-  url "https://github.com/Nytuo/CosmicComics/releases/download/v3.0.1/Cosmic.Comics_#{version}_#{arch}.dmg"
+  url "https://github.com/Nytuo/CosmicComics/releases/download/v3.1.0/Cosmic.Comics_#{version}_#{arch}.dmg"
   name "Cosmic Comics"
   desc "Reader for comics, manga and ebooks"
   homepage "https://github.com/Nytuo/CosmicComics"
