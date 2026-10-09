@@ -1,11 +1,11 @@
 cask "nytuo-launcher" do
   arch arm: "aarch64", intel: "x64"
 
-  version "4.0.1"
-  sha256 arm:   "feaf34fa538d1a0a0ebb56e4c5149a4be45491b2b04070210e9daa72f0892a48",
-         intel: "f07018fb6c352f590cf20ab1b702c62426fdcff45693a0da8cb6a2d055b8e1a9"
+  version "4.1.0"
+  sha256 arm:   "92732225b1fe3635a5890b013b13c5c7c9d67912d14a154e890d53eaca454c3c",
+         intel: "acdc7b929942680893d17cfbc2ae2cd5b83e1b2e7f037f526fe0b4fb453453eb"
 
-  url "https://github.com/Nytuo/Nytuo-Launcher/releases/download/nytuolauncher-v#{version}/nytuo-launcher_#{version}_#{arch}.dmg"
+  url "https://github.com/Nytuo/Nytuo-Launcher/releases/download/v4.1.0/nytuo-launcher_#{version}_#{arch}.dmg"
   name "Nytuo Launcher"
   desc "Launcher that downloads, starts and updates games"
   homepage "https://github.com/Nytuo/Nytuo-Launcher"
