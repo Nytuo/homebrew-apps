@@ -1,8 +1,8 @@
 cask "notata" do
-  version "0.2.0"
-  sha256 "421ecff9d3587550ff2fbcdefc19e4b2d16aca380fe57c3b62fe952b5995ed33"
+  version "0.3.0"
+  sha256 "0bbe0ec9b5d59779cfdaafef45f68a2babb432807b62872a0815eb38145e1cc2"
 
-  url "https://github.com/Nytuo/Notata/releases/download/notata-v#{version}/Notata_#{version}_aarch64.dmg"
+  url "https://github.com/Nytuo/Notata/releases/download/v0.3.0/Notata_#{version}_aarch64.dmg"
   name "Notata"
   desc "Tags media once so every server can read it"
   homepage "https://github.com/Nytuo/Notata"
