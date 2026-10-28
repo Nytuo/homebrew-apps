@@ -1,11 +1,11 @@
 cask "tentacle" do
   arch arm: "aarch64", intel: "x64"
 
-  version "0.2.1"
-  sha256 arm:   "8d02254d60ffbd2b52531388232ac6af5917b1c64bb840e87bb084c978c4590c",
-         intel: "90183c9fe359bbf7c22763268a9946125e35b351ef460b6fa6f4332a37947ced"
+  version "0.3.0"
+  sha256 arm:   "43ed279579a179ac6848325c158c3323715a7161264483418b77f8ff3e15f555",
+         intel: "e4cf1e8ab14eac9f6c7be3b9ff23efd8c22974a0602e67b1fce8b82cce74bd0d"
 
-  url "https://github.com/Nytuo/tentacle/releases/download/v0.2.1/Tentacle_#{version}_#{arch}.dmg"
+  url "https://github.com/Nytuo/tentacle/releases/download/v0.3.0/Tentacle_#{version}_#{arch}.dmg"
   name "Tentacle"
   desc "Privacy-first Git client"
   homepage "https://github.com/Nytuo/tentacle"
