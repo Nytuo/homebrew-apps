@@ -1,8 +1,8 @@
 cask "diapason" do
-  version "0.15.2"
-  sha256 "f539b1b341493714490ac05f99356c0eb7ed605cc891ce0ff3f7fd82d2e7542e"
+  version "0.15.3"
+  sha256 "9f9fed4cf93a23d0dd8052ead567614a5dde235afd3e4407f40a0594c426b07b"
 
-  url "https://github.com/Nytuo/diapason-flutter/releases/download/v0.15.2/diapason-#{version}_macos_aarch64.dmg"
+  url "https://github.com/Nytuo/diapason-flutter/releases/download/v0.15.3/diapason-#{version}_macos_aarch64.dmg"
   name "Diapason"
   desc "Local-first music player with full playback control"
   homepage "https://github.com/Nytuo/diapason-flutter"
